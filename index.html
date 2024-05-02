@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Assessment</title>
+    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 class="choice-header">SELECT YOUR CHOICE</h1>
+
+    <div id="category-tabs">
+        <button class="tab-button" data-category="men" onclick="toggleButton(this)"><img src="images/men.png" alt="men"> <span class="bold-text">Men</span></button>
+        <button class="tab-button" data-category="women" onclick="toggleButton(this)"><img src="images/women.png" alt="Women">  <span class="bold-text">Women</span></button>
+        <button class="tab-button" data-category="kids" onclick="toggleButton(this)"><img src="images/kid.png" alt="kid">  <span class="bold-text">Kids</span></button>
+    </div>
+    <div id="product-container">
+        <!-- Product cards will be added here -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
