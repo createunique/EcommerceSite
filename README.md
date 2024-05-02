@@ -58,4 +58,4 @@ Contributions are welcome! Please feel free to submit a pull request or create a
 
 ## License
 
-This project is licensed under the terms of the MIT license.
+This project is licensed under the terms of the MPL - 2.0 license.
