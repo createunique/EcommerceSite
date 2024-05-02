@@ -20,9 +20,31 @@ The project consists of three main files:
 
 - **Responsive Design:** The website is designed to be responsive and provides a good user experience on devices of all sizes. The layout of the product cards changes depending on the screen size.
 
-## How to Run
 
-To run the website locally, simply open the `index.html` file in your web browser.
+## How to Access and Run the Project
+
+1. **Clone the Repository:** First, you will need to clone the repository from GitHub to your local machine. You can do this by running the following command in your terminal (you will need to have Git installed):
+
+    ```bash
+    git clone https://github.com/createunique/EcommerceSite.git
+    ```
+
+2. **Navigate to the Project Directory:** Once the repository has been cloned, navigate into the project directory by running:
+
+    ```bash
+    cd EcommerceSite
+    ```
+
+3. **Open the Project:** Now, you can open the `index.html` file in your web browser to view the website. If you're using a Mac, you can do this from the terminal by running:
+
+    ```bash
+    open index.html
+    ```
+
+    If you're using Windows, you can navigate to the project directory in File Explorer and double-click on the `index.html` file.
+
+Please note that this project is a static website and doesn't require a server to run. However, if you're fetching data from an external API (like in this project), you might need to set up a local server due to CORS restrictions in your browser. You can do this easily with Python or Node.js, or use an IDE like Visual Studio Code that has a built-in live server extension.
+
 
 ## Future Improvements
 
